@@ -1,0 +1,182 @@
+.App {
+  text-align: center;
+}
+
+.checkbox {
+  margin-right: 15px;
+}
+
+.search-bar {
+  margin: 10px 15px;
+  width: 500px;
+  height: 30px;
+}
+
+.search-button {
+  border: none;
+  border-radius: 5%;
+  width: 100px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.sort-by-label {
+  margin: 0px 10px;
+}
+
+.max-ready-time {
+  width: 25px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  background: #2c3236;
+}
+
+.nav-links {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
+
+.logo {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 40px;
+  padding: 0;
+  margin:0;
+}
+
+.search-div-home {
+  background: #455a65;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-btn-home {
+  height: 30px;
+  width: 700px;
+}
+
+.recipe-ul {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0px;
+  padding: 0;
+}
+
+.search-form {
+  background: #455a65;
+  background: rgba(112, 171, 194, 0.77);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe {
+  width: 100%;
+  height: 450px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.recipe:hover {
+  background: #77afcd
+}
+
+.RecipeAddForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.add-form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+
+.input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.health-score {
+  width: 25px;
+}
+
+.label {
+  margin-right: 10px;
+}
+
+.button {
+  border: none;
+  padding: 10px;
+  width:150px;
+  height: 50px;
+  font-weight: bold;
+  margin: 15px 50px;
+}
+
+.box-form-example {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.RecipeAddForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.all-recipes-div {
+  width: 50%;
+}
+
+.AllRecipes {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.add-recipe-form {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.love-btn {
+  margin-right: 15px;
+}
+
+.health-score-edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.health-score-input {
+  width: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
